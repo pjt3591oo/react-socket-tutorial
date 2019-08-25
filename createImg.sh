@@ -1,2 +1,2 @@
-# docker build -t react.tutorial -f ./Docker/Dockerfile .
-docker build -t react.tutorial .
+docker build -t react.tutorial -f ./Docker/Dockerfile .
+# docker build -t react.tutorial .

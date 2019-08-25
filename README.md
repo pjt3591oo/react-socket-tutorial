@@ -9,12 +9,14 @@
 ### server
 
 ```bash
+$ cd server
 $ npm start
 ```
 
 ### client
 
 ```bash
+$ cd client
 $ npm start
 ```
 
