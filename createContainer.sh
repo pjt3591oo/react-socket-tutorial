@@ -1,0 +1,1 @@
+docker run --name r.1 -p 3001:80 -p 3000:3000 react.tutorial:latest

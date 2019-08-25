@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import io from 'socket.io-client';
 
 // react app 하나당 하나의 소켓 객체만 생성한다
-window.socket = io('http://localhost:3000');
+window.socket = io('http://127.0.0.1:3000');
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
