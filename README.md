@@ -21,6 +21,8 @@ $ cd client
 $ npm start
 ```
 
+[localhost](http://127.0.0.1:3001) 접속
+
 ### start using docker
 
 docker 기반 실행
@@ -30,6 +32,10 @@ docker 기반 실행
 ```bash
 $ docker build -t react.tutorial -f ./Docker/Dockerfile .
 ```
+
+[localhost](http://127.0.0.1:3001) 접속
+
+> 참고: Dockerfile에서 `cmd`는 docker run시 명령어를 전달하면 실행되지 않음. `docker --it {이미지} 명령어` OR `docker exec --it {컨테이너} 명령어`처럼 실행하면 CMD는 실행되지 않는다.
 
 OR
 
