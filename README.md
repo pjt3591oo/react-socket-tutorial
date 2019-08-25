@@ -1,6 +1,7 @@
 # react socket tutorial
 
 * 1.start
+* 2.socket 객체생성
 * 3.class 기반
 * 4.hooks 기반
 
@@ -61,6 +62,22 @@ or
 ```bash
 $ ./clear.sh
 ```
+
+## 2. socket 객체생성
+
+**`/client/src/index.js`**
+
+```js
+window.socket = io('http://127.0.0.1:3000');
+```
+
+하나의 app서는 하나의 소켓 객체를 생성
+
+소켓이 필요한 컴포넌트는 **`window.socket`** 이용
+
+만약, 컴포넌트마다 io(URL)을 하면 하나의 app에서 다수의 소켓 객체생성
+
+서버는 소켓 연결에 대해서 소켓 정보를 저장하고 있음.
 
 ## 3. class 기반
 
